@@ -28,6 +28,6 @@ Quick Link
 
 | Challenge   | SQL Script | Walkthrough | Skills Tested |
 | ----------- | ----------- | ----------- | ----------- |
-| [Case Study 1 - Danny's Diner](https://preppindata.blogspot.com/2023/01/2023-week-1-data-source-bank.html)      |  [SQL :snowflake:](https://github.com/wjsutton/data_with_danny_8_week_sql_challenge/blob/main/Case%20Study%201%20-%20Dannys%20Diner/week1_solutions.sql) | [YouTube](https://youtu.be/2fCPTlYiX4s) | Joins, Aggregration, Sorting, Ranking, Common Table Expressions (CTEs), Case Statements, Dates and Scalar functions|
-
+| [Case Study 1 - Danny's Diner](https://8weeksqlchallenge.com/case-study-1/)      |  [SQL :snowflake:](https://github.com/wjsutton/data_with_danny_8_week_sql_challenge/blob/main/Case%20Study%201%20-%20Dannys%20Diner/week1_solutions.sql) | [YouTube](https://youtu.be/2fCPTlYiX4s) | Joins, Aggregration, Sorting, Ranking, Common Table Expressions (CTEs), Case Statements, Dates and Scalar functions|
+| [Case Study 2a - Pizza Runner](https://8weeksqlchallenge.com/case-study-2/)      |  [SQL :snowflake:](https://github.com/wjsutton/data_with_danny_8_week_sql_challenge/blob/main/Case%20Study%201%20-%20Dannys%20Diner/week2a_solutions.sql) | [YouTube](https://youtu.be/AZEWpXmgiHs) | Joins, Aggregration, Searching Text, Case Statements, NULLs, Datetime and Scalar functions |
 
