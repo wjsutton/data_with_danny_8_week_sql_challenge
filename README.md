@@ -27,7 +27,7 @@ Quick Link
 ## :white_check_mark: Solutions
 
 | Challenge   | SQL Script | Walkthrough | Blog Post | Skills Tested |
-| ----------- | ----------- | ----------- | ----------- | |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
 | [Case Study 1 - Danny's Diner](https://8weeksqlchallenge.com/case-study-1/)      |  [SQL :snowflake:](https://github.com/wjsutton/data_with_danny_8_week_sql_challenge/blob/main/Case%20Study%201%20-%20Dannys%20Diner/week1_solutions.sql) | [YouTube :tv:](https://youtu.be/2fCPTlYiX4s) | [3 Tips for Week 1 :book:](https://www.linkedin.com/pulse/3-sql-tips-from-danny-mas-8-week-challenge-part-1-will-sutton/) | Joins, Aggregration, Sorting, Ranking, Common Table Expressions (CTEs), Case Statements, Dates and Scalar functions|
 | [Case Study 2a - Pizza Runner](https://8weeksqlchallenge.com/case-study-2/)      |  [SQL :snowflake:](https://github.com/wjsutton/data_with_danny_8_week_sql_challenge/blob/main/Case%20Study%201%20-%20Dannys%20Diner/week2a_solutions.sql) | [YouTube :tv:](https://youtu.be/AZEWpXmgiHs) |  | Joins, Aggregration, Searching Text, Case Statements, NULLs, Datetime and Scalar functions |
 
