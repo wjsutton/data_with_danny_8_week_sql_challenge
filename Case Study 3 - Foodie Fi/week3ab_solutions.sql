@@ -102,11 +102,33 @@ GROUP BY plan_name;
 
 
 -- 8. How many customers have upgraded to an annual plan in 2020?
+-- Any customer going to annual plan
 SELECT COUNT(customer_id) as annual_upgrade_customers
 FROM subscriptions as S
 INNER JOIN plans as P on P.plan_id = S.plan_id
 WHERE DATE_PART('year',start_date) = 2020
 AND plan_name = 'pro annual';
+
+-- Any monthly customer going to annual plan, thanks @mohamedmontaser7238 on YouTube!
+WITH MONTHLY_CUSTOMERS AS (
+SELECT  
+customer_id, 
+start_date
+FROM subscriptions as S
+WHERE DATE_PART('year',start_date) <= 2020
+AND plan_id IN (1,2)
+)
+,ANNUAL_CUSTOMERS AS (
+SELECT 
+customer_id,
+start_date
+FROM subscriptions as S
+WHERE DATE_PART('year',start_date) = 2020
+AND plan_id = 3
+)
+SELECT COUNT(DISTINCT A.customer_id) as annual_upgrade_customers
+FROM MONTHLY_CUSTOMERS as M
+INNER JOIN ANNUAL_CUSTOMERS as A ON M.customer_id = A.customer_id AND M.start_date < A.start_date;
 
 
 -- 9. How many days on average does it take for a customer to an annual plan from the day they join Foodie-Fi?
